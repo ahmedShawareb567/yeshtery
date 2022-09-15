@@ -46,7 +46,7 @@ export class AppCard extends Component {
               <div className="appCard-brand">
                 <AppImage
                   alt="adidas"
-                  src="/images/adidas.svg"
+                  src="/yeshtery/images/adidas.svg"
                   width="100%"
                   height="auto"
                 />
