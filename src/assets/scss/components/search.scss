@@ -1,0 +1,23 @@
+.search {
+  position: relative;
+  input {
+    display: block;
+    max-width: 100%;
+    height: rem(48px);
+    width: rem(350px);
+    border-radius: 4rem;
+    padding-left: 3rem;
+    border: 0.1rem solid $gray-400;
+    outline: none;
+    transition: all 0.15s ease-in-out;
+    &:focus {
+      border-color: $secondary;
+    }
+  }
+  &-icon {
+    position: absolute;
+    top: 0%;
+    left: 1.5rem;
+    transform: translate(-50%, 50%);
+  }
+}

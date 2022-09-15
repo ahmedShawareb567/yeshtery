@@ -1,0 +1,26 @@
+.cartItem {
+  &-image {
+    width: 4rem;
+    height: 4rem;
+    border-radius: rem(5px);
+    overflow: hidden;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  }
+  &-delete {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 0.1rem solid $secondary;
+    background-color: $secondary;
+    color: $dark;
+    transition: all 0.1s ease-in-out;
+    .icon {
+      width: 0.8rem;
+      height: 0.8rem;
+    }
+    &:hover {
+      border-color: $dark;
+      background-color: transparent;
+    }
+  }
+}

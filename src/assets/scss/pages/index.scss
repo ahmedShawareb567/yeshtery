@@ -1,0 +1,33 @@
+.product {
+  &-brand {
+    width: rem(60px);
+    height: rem(39.92px);
+  }
+  &-padding {
+    padding-right: 20rem;
+    @include media-breakpoint-down(xxl) {
+      padding-right: 15rem;
+    }
+    @include media-breakpoint-down(xl) {
+      padding-right: 10rem;
+    }
+    @include media-breakpoint-down(lg) {
+      padding-right: 5rem;
+    }
+    @include media-breakpoint-down(md) {
+      padding-right: 0rem;
+    }
+  }
+  &-discount {
+    padding: 0.3rem 0.5rem;
+    border-radius: rem(3px);
+  }
+  &-controls {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    @include media-breakpoint-down(sm) {
+      display: block;
+    }
+  }
+}

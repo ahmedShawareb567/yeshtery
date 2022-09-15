@@ -1,0 +1,33 @@
+.newsLetter {
+  position: relative;
+  input {
+    width: 100%;
+    height: rem(48px);
+    padding-left: 1rem;
+    border-radius: 3rem;
+    box-shadow: none;
+    border: none;
+    outline: 0.1rem solid transparent;
+    outline-offset: 0.2rem;
+    transition: all 0.15s ease-in-out;
+    &:focus {
+      outline-color: $secondary;
+    }
+  }
+  &-button {
+    position: absolute;
+    top: 0.35rem;
+    right: 0.35rem;
+    border-radius: 3rem;
+    height: rem(38px);
+    padding: 0rem 1rem;
+    border: 0.1rem solid $secondary;
+    background-color: $secondary;
+    font-size: rem(12px);
+    font-weight: 500;
+    transition: all 0.15s ease-in-out;
+    &:active {
+      border-color: $dark;
+    }
+  }
+}

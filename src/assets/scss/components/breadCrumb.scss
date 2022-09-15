@@ -1,0 +1,25 @@
+.breadCrumb {
+  border-bottom: 0.1rem solid $gray-500;
+  ul {
+    padding: 1rem 0rem;
+    margin: 0rem;
+    list-style: none;
+    li {
+      a {
+        text-decoration: underline;
+        font-size: rem(16px);
+        font-weight: 500;
+        padding: 0.4rem 0.5rem;
+        &:first-child {
+          padding-left: 0rem;
+        }
+        &.current {
+          text-decoration: none;
+        }
+      }
+    }
+    span {
+      padding: 0rem 0.5rem;
+    }
+  }
+}

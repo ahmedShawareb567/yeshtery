@@ -1,0 +1,26 @@
+.appCounter {
+  width: rem(252px);
+  max-width: 100%;
+  background-color: $gray-300;
+  border: 0.1rem solid $gray-400;
+  padding: 0.3rem;
+  border-radius: 4rem;
+  transition: all 0.15s ease-in-out;
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+  }
+  &:hover {
+    border-color: $secondary;
+  }
+  button {
+    border: 0.1rem solid $secondary;
+    background-color: $secondary;
+    width: rem(37px);
+    height: rem(37px);
+    border-radius: 50%;
+    transition: all 0.15s ease-in-out;
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}

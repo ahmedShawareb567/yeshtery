@@ -1,0 +1,25 @@
+// Bootstrap and its default variables
+
+@import "./fonts.scss";
+
+// COMPONENT
+@import "./components/btn.scss";
+@import "./components/header.scss";
+@import "./components/menuOverlay.scss";
+@import "./components/appShimmer.scss";
+
+//PAGES
+@import "./pages/index.scss";
+
+@import "./override";
+@import "./util";
+
+body {
+  overflow-x: hidden;
+}
+
+.app {
+  padding-top: 11.5rem;
+}
+
+@import "./rtl";

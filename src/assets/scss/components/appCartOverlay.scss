@@ -1,0 +1,59 @@
+.cartOverlay {
+  position: fixed;
+  top: 0rem;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  transition: all 0.2s ease-in-out;
+  &-bg {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 20%;
+    background-color: rgba(0, 0, 0, 0.05);
+    transition: all 0.5s ease-in-out;
+  }
+  &-content {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    width: 20rem;
+    height: 100%;
+    max-width: 100%;
+    z-index: 44;
+    background-color: $white;
+    padding: 2rem 1rem;
+  }
+  &-empty {
+    .icon {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+  &-close {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 0.1rem solid $secondary;
+    background-color: $secondary;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      background-color: transparent;
+      border-color: $dark;
+    }
+  }
+  &.isActive {
+    left: 0%;
+    .cartOverlay {
+      &-bg {
+        border-radius: 0rem;
+      }
+    }
+  }
+}

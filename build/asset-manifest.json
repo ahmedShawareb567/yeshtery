@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/yeshtery/static/css/main.1ccc5198.css",
+    "main.js": "/yeshtery/static/js/main.5776b095.js",
+    "static/js/787.1607b082.chunk.js": "/yeshtery/static/js/787.1607b082.chunk.js",
+    "static/media/sprites.svg": "/yeshtery/static/media/sprites.5a3654c2274dc036199616e9a091f01d.svg",
+    "index.html": "/yeshtery/index.html",
+    "main.1ccc5198.css.map": "/yeshtery/static/css/main.1ccc5198.css.map",
+    "main.5776b095.js.map": "/yeshtery/static/js/main.5776b095.js.map",
+    "787.1607b082.chunk.js.map": "/yeshtery/static/js/787.1607b082.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ccc5198.css",
+    "static/js/main.5776b095.js"
+  ]
+}

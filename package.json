@@ -1,0 +1,51 @@
+{
+  "name": "yeshetry-task",
+  "version": "0.1.0",
+  "homepage": "https://gitname.ahmedshawareb567.io/yeshtery",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.4.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.0.0-beta1",
+    "gh-pages": "^4.0.0",
+    "headroom.js": "^0.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-lazy-load-image-component": "^1.5.5",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "5.0.1",
+    "react-star-rating-component": "^1.4.1",
+    "sass": "1.32.12",
+    "swiper": "^8.3.2",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "craco  start",
+    "build": "craco  build",
+    "test": "craco  test",
+    "eject": "craco  eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

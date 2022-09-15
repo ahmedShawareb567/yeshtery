@@ -1,0 +1,19 @@
+.mainSlider {
+  .swiper {
+    padding-bottom: 2rem;
+    &-pagination {
+      top: auto;
+      bottom: 0rem;
+      &-progressbar {
+        background-color: $gray-400;
+        height: rem(5px);
+        &-fill {
+          background-color: $primary;
+        }
+      }
+    }
+    &-slide {
+      height: auto !important;
+    }
+  }
+}

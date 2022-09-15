@@ -1,0 +1,41 @@
+.theFooter {
+  background-color: $gray-700;
+  color: $white;
+  @include media-breakpoint-down(lg) {
+    padding-bottom: 3rem;
+  }
+  &-border {
+    &-right {
+      border-right: 0.1rem solid rgba(255, 255, 255, 0.1);
+      @include media-breakpoint-down(lg) {
+        border-color: transparent;
+      }
+    }
+    &-top {
+      border-top: 0.1rem solid rgba(255, 255, 255, 0.1);
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 0rem;
+    margin: 0rem;
+  }
+  &-links {
+    ul {
+      li {
+        a {
+          display: block;
+          padding: 0.45rem 0rem;
+        }
+      }
+    }
+  }
+  &-socials {
+    ul {
+      li {
+        display: block;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

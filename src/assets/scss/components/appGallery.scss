@@ -1,0 +1,71 @@
+.appGallery {
+  padding: 0rem 4rem 0rem 0rem;
+  @include media-breakpoint-down(lg) {
+    padding: 0rem;
+  }
+  &-main {
+    &-item {
+      position: relative;
+      border-radius: rem(5px);
+      overflow: hidden;
+      border: 0.1rem solid rgba(0, 0, 0, 0.1);
+      &-badge {
+        @include Badge;
+        button {
+          width: rem(60px);
+          height: rem(60px);
+          .icon {
+            width: 2.2rem;
+            height: 2.2rem;
+          }
+        }
+      }
+    }
+  }
+  &-thumbs {
+    position: relative;
+    padding: 0rem 3rem;
+    &-item {
+      border: 0.1rem solid rgba(0, 0, 0, 0.1);
+      border-radius: rem(5px);
+      overflow: hidden;
+      margin: 0.1rem;
+    }
+    .swiper {
+      &-slide {
+        border-radius: 0.5rem;
+        overflow: hidden;
+      }
+    }
+    @include media-breakpoint-down(md) {
+      padding: 0rem;
+    }
+    &-controls {
+      position: absolute;
+      top: 0rem;
+      left: 0rem;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      button {
+        position: relative;
+        z-index: 99;
+        background-color: transparent;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0.1rem solid transparent;
+        transition: all 0.12s ease-in-out;
+        &:hover {
+          border-color: $primary;
+          color: $primary;
+        }
+      }
+    }
+  }
+}

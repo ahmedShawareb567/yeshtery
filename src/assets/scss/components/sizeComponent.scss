@@ -1,0 +1,35 @@
+@mixin HoverStyle {
+  background-color: $gray-300;
+  border-color: $gray-300;
+  color: $dark;
+}
+
+.sizeCom {
+  ul {
+    list-style: none;
+    padding: 0rem;
+    margin: 0rem;
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: rem(60px);
+      height: rem(60px);
+      border-radius: 50%;
+      border: 0.1rem solid $gray-400;
+      font-size: rem(10px);
+      font-weight: 500;
+      margin-right: 1rem;
+      margin-bottom: 0.2rem;
+      color: $primary;
+      cursor: pointer;
+      transition: all 0.15s ease-in-out;
+      &:hover {
+        @include HoverStyle;
+      }
+      &.isActive {
+        @include HoverStyle;
+      }
+    }
+  }
+}

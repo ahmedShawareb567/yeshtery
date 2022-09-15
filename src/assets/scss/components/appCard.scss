@@ -1,0 +1,26 @@
+.appCard {
+  position: relative;
+  padding: 0.5rem;
+  border-radius: rem(5px);
+  background-color: $white;
+  border: 0.7551665306091309px solid $gray-400;
+  box-shadow: 0px 0px 5px #00000026;
+  &-body {
+    padding: 1rem;
+  }
+  &-badge {
+    @include Badge();
+  }
+  &-brand {
+    width: rem(56px);
+    height: rem(37.26px);
+  }
+  &-discount {
+    padding: 0.2rem 0.7rem;
+    background-color: $secondary;
+    border-radius: 0.2rem;
+    font-size: rem(12px);
+    color: $dark;
+    margin-left: 0.5rem;
+  }
+}
