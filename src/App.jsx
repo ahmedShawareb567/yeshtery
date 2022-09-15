@@ -79,7 +79,7 @@ export class App extends Component {
       <>
         <cartContext.Provider value={this.state}>
           <div className="app">
-            <Router>
+            <Router basename="yeshtery">
               <TheHeader />
               <div className="app-content">
                 <Switch>

@@ -51,7 +51,7 @@ export class TheHeader extends Component {
                     <SvgIcon name="menu" />
                   </span>
                   <Link to="/">
-                    <img src="/images/logo.svg" alt="logo" />
+                    <img src="/yeshtery/images/logo.svg" alt="logo" />
                   </Link>
                 </div>
                 <p to="/" className="fs-xs d-none d-lg-block mb-0">
@@ -105,7 +105,7 @@ export class TheHeader extends Component {
                 <div className="col-lg-4 col-md-6 col-4">
                   <div className="theHeader-center-logo">
                     <img
-                      src="/images/adidas.svg"
+                      src="/yeshtery/images/adidas.svg"
                       alt="adidas"
                       className="mx-lg-auto ms-auto img-max d-block"
                     />

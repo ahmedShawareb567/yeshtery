@@ -11,7 +11,7 @@ export const TheFooter = () => {
             <div className="col-lg-6 mb-4">
               <div className="theFooter-border-right pe-md-5">
                 <Link to="/" className="text-white mb-4 d-block">
-                  <img src="/images/logo-secondary.svg" alt="logo" />
+                  <img src="/yeshtery/images/logo-secondary.svg" alt="logo" />
                 </Link>
                 <p className="fs-sm fw-light">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
@@ -103,7 +103,10 @@ export const TheFooter = () => {
                           title="facebook"
                           className="d-flex align-items-center"
                         >
-                          <img src="/images/facebook.png" alt="facebook" />
+                          <img
+                            src="/yeshtery/images/facebook.png"
+                            alt="facebook"
+                          />
                           <span className="fs-sm ms-2">/YESHTERY</span>
                         </Link>
                       </li>
@@ -113,7 +116,10 @@ export const TheFooter = () => {
                           title="linkedIn"
                           className="d-flex align-items-center"
                         >
-                          <img src="/images/linkedIn.png" alt="linkedIn" />
+                          <img
+                            src="/yeshtery/images/linkedIn.png"
+                            alt="linkedIn"
+                          />
                           <span className="fs-sm ms-2">/YESHTERY</span>
                         </Link>
                       </li>
@@ -123,7 +129,10 @@ export const TheFooter = () => {
                           title="instagram"
                           className="d-flex align-items-center"
                         >
-                          <img src="/images/instagram.png" alt="instagram" />
+                          <img
+                            src="/yeshtery/images/instagram.png"
+                            alt="instagram"
+                          />
                           <span className="fs-sm ms-2">/YESHTERY</span>
                         </Link>
                       </li>
@@ -133,7 +142,10 @@ export const TheFooter = () => {
                           title="twitter"
                           className="d-flex align-items-center"
                         >
-                          <img src="/images/twitter.png" alt="twitter" />
+                          <img
+                            src="/yeshtery/images/twitter.png"
+                            alt="twitter"
+                          />
                           <span className="fs-sm  ms-2">/YESHTERY</span>
                         </Link>
                       </li>
@@ -157,17 +169,17 @@ export const TheFooter = () => {
               <div className="col-lg-4">
                 <div className="d-flex align-items-center justify-content-center">
                   <img
-                    src="/images/cashOnDelivery.png"
+                    src="/yeshtery/images/cashOnDelivery.png"
                     alt="cashOnDelivery"
                     className="img-max mx-2"
                   />
                   <img
-                    src="/images/visa.png"
+                    src="/yeshtery/images/visa.png"
                     alt="visa"
                     className="img-max mx-2"
                   />
                   <img
-                    src="/images/masterCard.png"
+                    src="/yeshtery/images/masterCard.png"
                     alt="masterCard"
                     className="img-max mx-2"
                   />
@@ -178,7 +190,7 @@ export const TheFooter = () => {
                   <p className="fs-sm mb-0 me-2">Powered By</p>
                   <Link to="/">
                     <img
-                      src="/images/nasnav.png"
+                      src="/yeshtery/images/nasnav.png"
                       alt="nasnav"
                       className="img-max"
                     />

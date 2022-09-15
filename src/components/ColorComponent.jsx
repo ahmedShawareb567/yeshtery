@@ -12,7 +12,7 @@ export class ColorComponent extends Component {
             <li className="isActive">
               <AppImage
                 alt="product-1"
-                src="/images/product/product-2.png"
+                src="/yeshtery/images/product/product-2.png"
                 width="100%"
                 height="auto"
               />
@@ -20,7 +20,7 @@ export class ColorComponent extends Component {
             <li>
               <AppImage
                 alt="product-1"
-                src="/images/product/product-3.png"
+                src="/yeshtery/images/product/product-3.png"
                 width="100%"
                 height="auto"
               />
