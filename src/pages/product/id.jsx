@@ -69,15 +69,15 @@ class ProductParameterPage extends Component {
               </div>
             )}
             {this.state.product && (
-              <div className="row pt-md">
-                <div className="col-lg-6 mb-xl">
+              <div className="row pt-md mb-md-5">
+                <div className="col-lg-6 mb-lg">
                   <AppGallery images={this.state.product.images} />
                 </div>
                 <div className="col-lg-6 mb-xl">
                   <div className="product-brand mb-md">
                     <AppImage
                       alt="product-1"
-                      src="/images/adidas.svg"
+                      src="/yeshtery/images/adidas.svg"
                       width="100%"
                       height="auto"
                     />
