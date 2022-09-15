@@ -40,6 +40,7 @@ class ProductParameterPage extends Component {
   async componentWillReceiveProps(route) {
     if (route.match.params.id !== this.props.match.params.id) {
       this.setState((state) => (state.product = null));
+      this.setState((state) => (state.quantity = 1));
       window.scrollTo({
         top: 0,
         behavior: "smooth",
