@@ -1,5 +1,6 @@
 .search {
   position: relative;
+  height: rem(48px);
   input {
     display: block;
     max-width: 100%;
@@ -16,8 +17,7 @@
   }
   &-icon {
     position: absolute;
-    top: 0%;
-    left: 1.5rem;
-    transform: translate(-50%, 50%);
+    top: 0.75rem;
+    left: 1rem;
   }
 }
