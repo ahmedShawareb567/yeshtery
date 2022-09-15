@@ -2,13 +2,13 @@
 
 yeshtery task
 
-#Install dependencies
+# Install dependencies
 yarn
 
-#Start localhost
+# Start localhost
 yarn start
 
-#Build Project
+# Build Project
 yarn build
 
-#node version(v16.17.0)
+# node version(v16.17.0)
